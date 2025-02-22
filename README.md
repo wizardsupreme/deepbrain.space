@@ -1,112 +1,79 @@
-# DeepBrain.Space Website
+# Wizard Supreme's AI Brain
 
-A modern, responsive website for DeepBrain.Space, showcasing AI Voice Agents for businesses. Built with Next.js, TypeScript, and TailwindCSS.
+A concise knowledge base on AI research and development, focusing on AI models, agents, tools, crypto, and best practices.
 
-## 🚀 Quick Start
+## Overview
 
-### Prerequisites
+This documentation site covers:
+- AI Models and their capabilities
+- AI Agent frameworks and tools
+- Development environments and IDEs
+- Crypto/Web3 development resources
+- Productivity tools and workflows
 
-- Node.js 16.x or later
-- pnpm (Install globally with `npm install -g pnpm`)
+## Features
 
-### Initial Setup
+- 📚 Comprehensive documentation
+- 🔍 Full-text search
+- 🌙 Dark/Light mode
+- 📱 Mobile responsive
+- 🔄 Regular updates
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/your-username/deepbrain-space.git
-   cd deepbrain-space
-   ```
+## Local Development
+```bash
+# Install dependencies
+cd docs
+npm install
 
-2. Install dependencies
-   ```bash
-   pnpm install
-   ```
+# Start development server
+npm run start
 
-3. Create required directories and files
-   ```bash
-   mkdir -p public/images/testimonials
-   mkdir -p src/styles
-   ```
-
-4. Add placeholder images for testimonials
-   - Add placeholder images to: `public/images/testimonials/john.jpg`
-   - Add placeholder images to: `public/images/testimonials/sarah.jpg`
-   - Add placeholder video to: `public/videos/ai-background.mp4`
-
-5. Start the development server
-   ```bash
-   pnpm dev
-   ```
-
-6. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## 📁 Project Structure
+# Build for production
+npm run build
+```
+## Documentation Structure
 
 ```
-deepbrain-space/
-├── public/
-│   ├── images/
-│   │   └── testimonials/    # Testimonial images
-│   └── videos/             # Video assets
-├── src/
-│   ├── components/         # React components
-│   ├── pages/             # Next.js pages
-│   ├── styles/            # Global styles
-│   └── types/             # TypeScript types
-└── config files           # Various configuration files
+docs/   
+├── docs/
+│ ├── intro.md # Introduction
+│ ├── ai/
+│ ├── models.md # AI language models
+│ ├── agents.md # AI agent frameworks
+│ └── ides.md # AI-enhanced IDEs
+│ ├── hosting.md # Hosting options
+│ ├── videos.md # Educational videos
+│ └── tools.md # AI development tools
+├── blockchain/
+│ ├── protocols.md # Blockchain protocols
+│ ├── defi.md # DeFi systems
+│ └── web3.md # Web3 development
+├── productivity/
+│ ├── workflows.md # Development workflows
+│ ├── documentation.md # Documentation systems
+│ └── automation.md # Automation tools
 ```
 
-## 🛠 Development
-
-### Available Scripts
-
-- `pnpm dev` - Start development server
-- `pnpm build` - Build for production
-- `pnpm start` - Start production server
-- `pnpm lint` - Run ESLint
-- `pnpm clean` - Clean build cache
-
-### Key Features
-
-- Responsive design
-- Modern UI with animations
-- TypeScript support
-- TailwindCSS styling
-- Component-based architecture
-- Form handling
-- Video integration
-
-## 🚀 Deployment
-
-### Deploying to Vercel
-
-1. Push your code to GitHub
-2. Import your project in Vercel
-3. Configure build settings:
-   - Build Command: `pnpm build`
-   - Output Directory: `.next`
-   - Install Command: `pnpm install`
-
-### Environment Variables
-
-Create a `.env.local` file in the root directory:
-
-```env
-NEXT_PUBLIC_SITE_URL=http://localhost:3000
-```
-
-## 🧪 Testing
-
-Coming soon...
-
-## 📝 Contributing
+## Contributing
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'feat: add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## Built With
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- [Docusaurus 3](https://docusaurus.io/) - Documentation framework
+- [React](https://reactjs.org/) - UI framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [MDX](https://mdxjs.com/) - Markdown extensions
+
+## License
+
+MIT License - see the [LICENSE](LICENSE) file for details
+
+## Contact
+
+- GitHub: [@wizardsupreme](https://github.com/wizardsupreme)
+- Twitter: [@wizardnayeem](https://twitter.com/wizardnayeem)
