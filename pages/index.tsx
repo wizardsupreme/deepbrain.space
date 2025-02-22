@@ -29,10 +29,7 @@ export default function Home() {
                 <a href="#features" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
                   Features
                 </a>
-                <a href="#pricing" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
-                  Pricing
-                </a>
-                <a href="#contact" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+                <a href="https://tally.so/r/31pp0L" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
                   Contact
                 </a>
               </nav>
@@ -58,12 +55,14 @@ export default function Home() {
                 <button 
                   type="button"
                   className="bg-blue-600 text-white px-6 sm:px-8 py-2.5 sm:py-3 text-sm sm:text-base rounded-lg font-medium hover:bg-blue-700 transition-colors dark:bg-blue-500 dark:hover:bg-blue-600"
+                  onClick={() => window.open('https://tally.so/r/31pp0L', '_blank')}
                 >
-                  Try Live Demo
+                  Get Started
                 </button>
                 <button
                   type="button" 
                   className="border border-blue-600 text-blue-600 dark:border-blue-400 dark:text-blue-400 px-6 sm:px-8 py-2.5 sm:py-3 text-sm sm:text-base rounded-lg font-medium hover:bg-blue-50 dark:hover:bg-gray-800 transition-colors"
+                  onClick={() => window.open('https://tally.so/r/31pp0L', '_blank')}
                 >
                   Schedule Demo
                 </button>
@@ -88,6 +87,7 @@ export default function Home() {
                 <button
                   type="button"
                   className="self-end bg-blue-600 dark:bg-blue-500 text-white px-4 sm:px-6 py-2 text-sm sm:text-base rounded-lg font-medium hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors"
+                  onClick={() => window.open('https://tally.so/r/31pp0L', '_blank')}
                 >
                   Try it yourself →
                 </button>
@@ -129,7 +129,6 @@ export default function Home() {
               <h3 className="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">Product</h3>
               <ul className="mt-4 space-y-2">
                 <li><a href="#" className="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Features</a></li>
-                <li><a href="#" className="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Pricing</a></li>
                 <li><a href="#" className="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">API</a></li>
               </ul>
             </div>
@@ -146,7 +145,7 @@ export default function Home() {
               <ul className="mt-4 space-y-2">
                 <li><a href="#" className="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Documentation</a></li>
                 <li><a href="#" className="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Help Center</a></li>
-                <li><a href="#" className="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Contact</a></li>
+                <li><a href="https://tally.so/r/31pp0L" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Contact</a></li>
               </ul>
             </div>
             <div>
