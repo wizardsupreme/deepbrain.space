@@ -1,11 +1,15 @@
 import { ThemeToggle } from '../components/ThemeToggle'
+import { FeatureCard } from '../components/FeatureCard'
 import { 
   ComputerDesktopIcon, 
   UserIcon,
-  ChatBubbleLeftRightIcon,
-  ClockIcon,
-  CodeBracketIcon
 } from '@heroicons/react/24/outline'
+
+// Add type definitions
+interface ChatMessageProps {
+  isAI: boolean;
+  message: string;
+}
 
 export default function Home() {
   return (
@@ -164,8 +168,8 @@ export default function Home() {
   );
 }
 
-// Update ChatMessage component
-function ChatMessage({ isAI, message }) {
+// Update ChatMessage component with types
+function ChatMessage({ isAI, message }: ChatMessageProps) {
   return (
     <div className="flex items-start gap-4">
       <div className={`shrink-0 w-8 h-8 ${isAI ? 'bg-blue-100/80 dark:bg-blue-900/80' : 'bg-gray-100/80 dark:bg-gray-700/80'} rounded-full flex items-center justify-center`}>
@@ -180,27 +184,6 @@ function ChatMessage({ isAI, message }) {
           {message}
         </p>
       </div>
-    </div>
-  );
-}
-
-// Update FeatureCard component to use Heroicons
-function FeatureCard({ title, description, icon }) {
-  const icons = {
-    '/img/chat-icon.svg': ChatBubbleLeftRightIcon,
-    '/img/clock-icon.svg': ClockIcon,
-    '/img/integration-icon.svg': CodeBracketIcon,
-  };
-
-  const Icon = icons[icon];
-
-  return (
-    <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm">
-      <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mb-4">
-        <Icon className="w-6 h-6 text-blue-600 dark:text-blue-400" />
-      </div>
-      <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">{title}</h3>
-      <p className="text-gray-600 dark:text-gray-300">{description}</p>
     </div>
   );
 } 
