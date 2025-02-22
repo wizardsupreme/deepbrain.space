@@ -3,7 +3,6 @@ import { FeatureCard } from '../components/FeatureCard'
 import { 
   ComputerDesktopIcon, 
   UserIcon,
-  BoltIcon,
 } from '@heroicons/react/24/outline'
 
 // Add type definitions
@@ -21,7 +20,7 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <a href="/" className="flex items-center gap-2 text-xl font-bold text-gray-900 dark:text-white">
-                <BoltIcon className="w-8 h-8 text-blue-500" />
+                <img src="/img/brain-logo.svg" alt="DeepBrain Space Logo" className="w-8 h-8" />
                 DeepBrain.Space
               </a>
             </div>
