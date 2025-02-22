@@ -65,9 +65,6 @@ const Hero = () => {
                       />
                     ))}
                   </div>
-                  <p className="text-sm text-gray-600">
-                    Trusted by 500+ companies worldwide
-                  </p>
                 </div>
               </motion.div>
 

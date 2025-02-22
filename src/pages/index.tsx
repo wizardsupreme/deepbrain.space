@@ -1,5 +1,9 @@
 import { motion } from 'framer-motion';
 import Head from 'next/head';
+import Logo from '@/components/Logo';
+import DemoPreview from '@/components/DemoPreview';
+import ThemeToggle from '@/components/ThemeToggle';
+import Footer from '@/components/Footer';
 
 const features = [
   {
@@ -29,19 +33,22 @@ export default function Home() {
         <title>DeepBrain.Space - AI Voice Agents for Business</title>
         <meta name="description" content="Transform your business communication with intelligent AI voice agents that understand, engage, and deliver results 24/7." />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
       </Head>
 
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-sm z-50 border-b border-gray-100">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
-            <a href="/" className="flex items-center space-x-2">
-              <span className="text-xl font-bold text-blue-600">DeepBrain.Space</span>
-            </a>
+            <Logo />
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#features" className="text-gray-600 hover:text-blue-600">Features</a>
-              <a href="#demo" className="text-gray-600 hover:text-blue-600">Demo</a>
-              <a href="#pricing" className="text-gray-600 hover:text-blue-600">Pricing</a>
+              <a href="#features" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">Features</a>
+              <a href="#demo" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">Demo</a>
+              <a href="#pricing" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">Pricing</a>
+              <ThemeToggle />
               <a href="#contact" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
                 Contact Sales
               </a>
@@ -82,21 +89,6 @@ export default function Home() {
                     Schedule Demo
                   </a>
                 </div>
-                <div className="mt-8 flex items-center gap-4">
-                  <div className="flex -space-x-2">
-                    {[1, 2, 3].map((i) => (
-                      <img
-                        key={`client-${i}`}
-                        src={`/images/logos/client-${i}.png`}
-                        alt={`Client ${i} logo`}
-                        className="w-10 h-10 rounded-full border-2 border-white"
-                      />
-                    ))}
-                  </div>
-                  <p className="text-sm text-gray-600">
-                    Trusted by 500+ companies worldwide
-                  </p>
-                </div>
               </motion.div>
 
               <motion.div
@@ -105,22 +97,7 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="relative"
               >
-                <div className="bg-gradient-to-r from-blue-600 to-blue-400 rounded-2xl p-1">
-                  <div className="bg-white rounded-xl p-6">
-                    <div className="aspect-video rounded-lg overflow-hidden bg-gray-100">
-                      <video
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="w-full h-full object-cover"
-                        poster="/images/demo-poster.jpg"
-                      >
-                        <source src="/videos/demo.mp4" type="video/mp4" />
-                      </video>
-                    </div>
-                  </div>
-                </div>
+                <DemoPreview />
               </motion.div>
             </div>
           </div>
@@ -155,6 +132,8 @@ export default function Home() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </div>
   );
 } 
