@@ -1,0 +1,27 @@
+{
+  "id": "blockchain/web3",
+  "title": "�� Web3 Development",
+  "description": "Last Updated: 2025-01-19",
+  "source": "@site/docs/blockchain/web3.md",
+  "sourceDirName": "blockchain",
+  "slug": "/blockchain/web3",
+  "permalink": "/docs/blockchain/web3",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/wizardsupreme/brain/edit/main/docs/blockchain/web3.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "💰 DeFi",
+    "permalink": "/docs/blockchain/defi"
+  },
+  "next": {
+    "title": "📈 Workflows",
+    "permalink": "/docs/productivity/workflows"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ai/interfaces",
+  "title": "AI Interfaces",
+  "description": "Comparison of AI interface options including browser-use, chatGPT operator, and Claude interfaces",
+  "source": "@site/docs/ai/interfaces.md",
+  "sourceDirName": "ai",
+  "slug": "/ai/interfaces",
+  "permalink": "/docs/ai/interfaces",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/wizardsupreme/brain/edit/main/docs/ai/interfaces.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "AI Interfaces",
+    "description": "Comparison of AI interface options including browser-use, chatGPT operator, and Claude interfaces"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "💻 IDEs",
+    "permalink": "/docs/ai/ides"
+  },
+  "next": {
+    "title": "☁️ Hosting",
+    "permalink": "/docs/ai/hosting"
+  }
+}

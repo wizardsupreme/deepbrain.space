@@ -1,0 +1,103 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs/",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "ai/agents",
+              "path": "/docs/ai/agents",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ai/hosting",
+              "path": "/docs/ai/hosting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ai/ides",
+              "path": "/docs/ai/ides",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ai/interfaces",
+              "path": "/docs/ai/interfaces",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ai/models",
+              "path": "/docs/ai/models",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ai/storage",
+              "path": "/docs/ai/storage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ai/tools",
+              "path": "/docs/ai/tools",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ai/videos",
+              "path": "/docs/ai/videos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blockchain/defi",
+              "path": "/docs/blockchain/defi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blockchain/protocols",
+              "path": "/docs/blockchain/protocols",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blockchain/web3",
+              "path": "/docs/blockchain/web3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "productivity/automation",
+              "path": "/docs/productivity/automation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "productivity/documentation",
+              "path": "/docs/productivity/documentation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "productivity/workflows",
+              "path": "/docs/productivity/workflows",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "🚀 Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

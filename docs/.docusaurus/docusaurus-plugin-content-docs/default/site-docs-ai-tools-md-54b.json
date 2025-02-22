@@ -1,0 +1,29 @@
+{
+  "id": "ai/tools",
+  "title": "Tools",
+  "description": "Collection of AI-powered tools and utilities",
+  "source": "@site/docs/ai/tools.md",
+  "sourceDirName": "ai",
+  "slug": "/ai/tools",
+  "permalink": "/docs/ai/tools",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/wizardsupreme/brain/edit/main/docs/ai/tools.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Tools",
+    "description": "Collection of AI-powered tools and utilities"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "☁️ Hosting",
+    "permalink": "/docs/ai/hosting"
+  },
+  "next": {
+    "title": "🎥 Videos",
+    "permalink": "/docs/ai/videos"
+  }
+}

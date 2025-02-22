@@ -1,0 +1,37 @@
+{
+  "id": "ai/storage",
+  "title": "Storage",
+  "description": "Guide to storage solutions commonly used in AI applications, including vector databases and RDBMS",
+  "source": "@site/docs/ai/storage.md",
+  "sourceDirName": "ai",
+  "slug": "/ai/storage",
+  "permalink": "/docs/ai/storage",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/wizardsupreme/brain/edit/main/docs/ai/storage.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Storage",
+    "description": "Guide to storage solutions commonly used in AI applications, including vector databases and RDBMS",
+    "keywords": [
+      "databases",
+      "vector databases",
+      "RDBMS",
+      "Qdrant",
+      "Pinecone",
+      "Supabase"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🤖 Agents",
+    "permalink": "/docs/ai/agents"
+  },
+  "next": {
+    "title": "💻 IDEs",
+    "permalink": "/docs/ai/ides"
+  }
+}

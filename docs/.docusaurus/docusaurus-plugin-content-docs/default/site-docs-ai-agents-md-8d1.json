@@ -1,0 +1,29 @@
+{
+  "id": "ai/agents",
+  "title": "Agents",
+  "description": "Concise guide to agent frameworks and development tools",
+  "source": "@site/docs/ai/agents.md",
+  "sourceDirName": "ai",
+  "slug": "/ai/agents",
+  "permalink": "/docs/ai/agents",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/wizardsupreme/brain/edit/main/docs/ai/agents.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Agents",
+    "description": "Concise guide to agent frameworks and development tools"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🧠 Models",
+    "permalink": "/docs/ai/models"
+  },
+  "next": {
+    "title": "💾 Storage",
+    "permalink": "/docs/ai/storage"
+  }
+}
